@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('fondo_formulario3.jpg');
+}
+
+.form-register {
+    width: 1000px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+input:invalid {
+    border: red solid 3px;
+  }
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: #34425e;
+    padding: 13px;
+    text-align: center;
+}
+
+.form-register h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: #34425e;
+    padding: 6px;
+}
+
+.controls {
+    width: 100%;
+    background: rgb(228, 237, 255);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;   
+    color: black;    
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;    
+}
+
+.controlsx {
+    width: 50%;
+    background: rgb(228, 237, 255);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;   
+    color: black;     
+}
+
+.controlsy {
+    width: 49%;
+    background: rgb(228, 237, 255);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+
+label {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    color: black;
+    background: rgb(228, 237, 255);
+    font-size: 18px;
+}
+
+.controlsa {
+    width: 3.82%;
+    background: #24303c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+
+.controlsb {
+    width: 3.82%;
+    background: rgb(228, 237, 255);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+
+
+
+.controlsc {
+    width: 85%;
+    background: rgb(228, 237, 255);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
