@@ -5,35 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
     <title>Formulario Registro</title>
 </head>
 <body>
     <section class="form-register">
         <h4>Formulario De Inscripción</h4>
         <h5>Datos Personales</h5>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellido">
-        <input class="controls" type="text" name="dirección" id="dirección" placeholder="Dirección">
-        <input class="controls" type="tel" name="teléfono" id="teléfono" pattern="[0-9]{9}" placeholder="Teléfono o Celular">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Correo">
-        <input class="controls" type="tel" name="documento" id="documento" pattern="[0-9]{7}" placeholder="DNI">
-        <input class="controls" type="date" name="fecha" id="fecha" placeholder="Fecha de Nacimiento">
+        <form>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellido">
+            <input class="controls" type="text" name="dirección" id="dirección" placeholder="Dirección">
+            <input class="controls" type="tel" name="teléfono" id="teléfono" pattern="[0-9]{9}" placeholder="Teléfono o Celular">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Correo">
+            <input class="controls" type="tel" name="documento" id="documento" pattern="[0-9]{7}" placeholder="DNI">
+            <input class="controls" type="date" name="fecha" id="fecha" placeholder="Fecha de Nacimiento">
+        </form>
         <h5>Capacitación</h5>
-        <input class="controlsx" type="text" name="curso" id="curso" placeholder="Elije un Curso">
-        <input class="controlsy" type="text" name="días" id="días" placeholder="Día">
-        <input class="controlsx" type="text" name="horario" id="horario" placeholder="Elije un turno">
-        <label for="lunes"><input class="controlsa" type="checkbox" name="lunes1" id="lunes"> Lunes</label>
-        <label for="martes"><input class="controlsa" type="checkbox" name="martes1" id="martes">Martes</label>
-        <label for="miercoles"><input class="controlsa" type="checkbox" name="miercoles1" id="miercoles">Miercoles</label>
-        <label for="jueves"><input class="controlsa" type="checkbox" name="jueves1" id="jueves">Jueves</label>
+        <form class="controlsx">
+            <input type="text" name="curso" id="curso" placeholder="Elije un Curso">
+            <input type="text" name="días" id="días" placeholder="Día">
+            <input type="text" name="horario" id="horario" placeholder="Elije un Turno">
+            <label for="lunes"><input type="checkbox" name="lunes1" id="lunes"> Lunes</label>
+            <label for="martes"><input type="checkbox" name="martes1" id="martes">Martes</label>
+            <label for="miercoles"><input type="checkbox" name="miercoles1" id="miercoles">Miercoles</label>
+            <label for="jueves"><input type="checkbox" name="jueves1" id="jueves">Jueves</label>
+        </form>
         <h5>Plan de Pago</h5>
-        <label for="contado"><input class="controlsb" type="radio" name="pago" id="contado">Contado</label>
-        <input class="controlsc" type="text" name="días" id="días">
-        <label for="crédito"><input class="controlsb" type="radio" name="pago" id="crédito">Crédito</label>
-        <input class="controlsc" type="text" name="días" id="días">
-
-
-        
+        <form>
+            <label for="contado"><input class="controlsy" type="radio" name="pago" id="contado">Contado</label>
+            <input class="controlsy" type="text" name="días" id="días">
+            <label for="crédito"><input class="controlsy" type="radio" name="pago" id="crédito">Crédito</label>
+            <input class="controlsy" type="text" name="días" id="días">
+        </form>
         <h5>Datos de la Institución</h5>
 
     </section>
