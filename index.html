@@ -24,19 +24,27 @@
         <h5>Capacitación</h5>
         <form class="controlsx">
             <input type="text" name="curso" id="curso" placeholder="Elije un Curso">
-            <input type="text" name="días" id="días" placeholder="Día">
             <input type="text" name="horario" id="horario" placeholder="Elije un Turno">
-            <label for="lunes"><input type="checkbox" name="lunes1" id="lunes"> Lunes</label>
-            <label for="martes"><input type="checkbox" name="martes1" id="martes">Martes</label>
-            <label for="miercoles"><input type="checkbox" name="miercoles1" id="miercoles">Miercoles</label>
-            <label for="jueves"><input type="checkbox" name="jueves1" id="jueves">Jueves</label>
+            <input type="text" name="días" id="días" placeholder="Día">
+            <div class= "prueba">
+                <input type="checkbox" name="lunes1" id="lunes">
+                <label for="lunes"> Lunes</label>
+                <input type="checkbox" name="martes1" id="martes">
+                <label for="martes">Martes</label>
+                <input type="checkbox" name="miercoles1" id="miercoles">
+                <label for="miercoles">Miercoles</label>
+                <input type="checkbox" name="jueves1" id="jueves">
+                <label for="jueves">Jueves</label>
+            </div>
         </form>
         <h5>Plan de Pago</h5>
-        <form>
-            <label for="contado"><input class="controlsy" type="radio" name="pago" id="contado">Contado</label>
-            <input class="controlsy" type="text" name="días" id="días">
-            <label for="crédito"><input class="controlsy" type="radio" name="pago" id="crédito">Crédito</label>
-            <input class="controlsy" type="text" name="días" id="días">
+        <form class="controlsy">
+            <input type="radio" name="pago" id="contado">
+            <label for="contado">Contado</label>
+            <input type="text" name="días" id="días">
+            <input type="radio" name="pago" id="crédito">
+            <label for="crédito">Crédito</label>
+            <input type="text" name="días" id="días">
         </form>
         <h5>Datos de la Institución</h5>
 

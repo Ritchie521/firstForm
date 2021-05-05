@@ -1,5 +1,45 @@
 .controlsx {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.controlsx #curso {
+    background: rgb(228, 237, 255);
+    border: 1px solid #1f53c5;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'calibri';
+}
+
+.controlsx #días {
+    background: rgb(228, 237, 255);
+    grid-row-start: 1;
+    grid-column-start: 2;
+    border: 1px solid #1f53c5;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'calibri';
+}
+
+.controlsx #horario {
+    background: rgb(228, 237, 255);
+    grid-column-start: 1;
+    border: 1px solid #1f53c5;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'calibri';
+}
+
+.controlsx .prueba {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
