@@ -3,7 +3,7 @@
     grid-gap: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 3fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
@@ -20,6 +20,7 @@
     background: rgb(228, 237, 255);
     grid-row-start: 1;
     grid-column-start: 2;
+    grid-column-end: 4;
     border: 1px solid #1f53c5;
     border-radius: 4px;
     padding: 10px;
@@ -41,5 +42,5 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
 }
